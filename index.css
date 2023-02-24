@@ -1,0 +1,18 @@
+
+    .firstDiv {
+    background-color: aqua;
+    height: 50vh;
+    border: 1px solid red;
+    width: 30%;
+    
+}
+
+#secondDiv {
+    background-color: orange;
+    height: 50vh;
+    border: 1px blue;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
