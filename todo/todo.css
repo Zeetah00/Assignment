@@ -1,0 +1,37 @@
+ .addbutton {
+       background-color: green;
+    }
+
+.h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+       justify-content: center;
+       margin-left: 40%;
+}
+.seconddiv {
+    height: 40px;
+    width: 30%;
+    margin: auto;    
+margin-top: 10px;
+}
+
+.firstp {
+    margin-left: 10px;
+}
+
+/* .list {
+text-align: center;
+} */
+
+ul {
+  margin-left: 35%;
+display: inline-flexbox;  
+}
+
+button{
+    color: red;
+    margin-left: 90px;
+}

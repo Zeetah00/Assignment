@@ -27,6 +27,7 @@ justify-content: left;
     width: 200px;
     align-items: flex-start;
     padding: 0cm;
+    margin-left: 50%;
 }
 
 .footer {
