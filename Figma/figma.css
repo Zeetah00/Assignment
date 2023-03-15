@@ -1,0 +1,74 @@
+body {
+    font-family: Poppins;
+  }
+  
+  .firstdiv {
+    text-align: center;
+ }
+
+ .firstimage {
+    width: 20px;
+    height: 20px;
+    margin-left: 80px;
+
+ }
+
+ .box {
+    width: 80%;
+			height: 70px;
+			border: 1px solid black;
+			padding: 20px;
+            background-color: black;
+			border-radius: 20px;
+            margin: auto;
+         }
+
+.sales {
+    color: white;
+    font-size: x-small;
+    align-items: left;
+    margin-top: auto;
+}
+
+.firstline {
+        border-left: 1px solid white;
+  height: 40px;
+ }
+
+ /* .secondline {
+    border-right: 1px solid #494949;
+    height: 50px;
+ } */
+
+ .select1 {
+    color: white;
+    background: transparent;
+ }
+
+ .salesdiv {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .boxstatistics {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+ }
+
+ .range > p {
+color: white;
+ font-size: 5px;
+ 
+ }
+
+.first_Line_Date 
+{ display: flex; 
+    justify-content: space-around; flex-direction: column;
+
+  }
+
+.date { color: black; font-size: 5px;
+} 
+
+
