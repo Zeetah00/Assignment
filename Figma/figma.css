@@ -14,8 +14,8 @@ body {
  }
 
  .box {
-    width: 80%;
-			height: 70px;
+    width: 70%;
+			height: 100px;
 			border: 1px solid black;
 			padding: 20px;
             background-color: black;
@@ -24,24 +24,19 @@ body {
          }
 
 .sales {
-    color: white;
+    color: #494949;
     font-size: x-small;
     align-items: left;
     margin-top: auto;
 }
 
 .firstline {
-        border-left: 1px solid white;
-  height: 40px;
+border-left: 1px solid #494949;
+  height: 60px;
  }
 
- /* .secondline {
-    border-right: 1px solid #494949;
-    height: 50px;
- } */
-
  .select1 {
-    color: white;
+    color: #494949;
     background: transparent;
  }
 
@@ -53,22 +48,128 @@ body {
  .boxstatistics {
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-bottom: 40px;
  }
 
  .range > p {
-color: white;
+color:#494949;
  font-size: 5px;
- 
- }
+ margin-bottom: 10px;
+  }
 
 .first_Line_Date 
 { display: flex; 
-    justify-content: space-around; flex-direction: column;
-
+    justify-content: space-around; 
+    flex-direction: column;
+    align-items: center;
   }
 
-.date { color: black; font-size: 5px;
+.date {
+    color: #494949;
+    font-size: 5px;
 } 
 
+.select1 {
+   border: none;
+   margin-bottom: 20px;
+}
 
+.curvedline {
+   position: absolute;
+   left: 100px;
+}
+
+.firstcurvedline {
+   position: absolute;
+   left: 30px;
+   top: 10px;
+   }
+
+.secondcurvedline {
+   position: absolute;
+   left: 30px;
+   top: 20px;
+ }
+
+ .bluebox {
+   width: 30%;
+   height: 100px;
+   border: 1px solid #DAF4FE;
+   background-color: #DAF4FE;
+   border-radius: 20px;
+     margin-bottom: 200px;
+     margin-left: 220px;
+     margin-top: 40px;
+     padding: 10px;
+     position: absolute;
+
+ }
+
+ .blueboxtext_noheading {
+   font-size: 8px;
+  margin-top: -5px; 
+ }
+ .statements {
+  margin-bottom: 0px;
+  margin-top: 10px
+ }
+
+ .blueboxtext {
+   margin: 0;
+ }
+
+ .downloadbutton {
+   background-color:#4891FF;
+   border: none;
+   border-radius: 5px;
+   color: #FFFFFF;
+   font-size: small;
+   width: 100px;
+   height: 20px;
+   
+ }
+ .communicationstext {
+   margin-top: 100px;
+   width: 100%;
+   
+ }
+
+ .secondblackbox {
+   width: 60%;
+   height: 130px;
+   border: 1px solid black;
+   background-color: black;
+   border-radius: 20px;
+ }
+
+.jan17 {
+margin-top: 10px;
+margin-left: 35px;
+margin-bottom: 5px;
+}
+
+.teamcall {
+  margin-bottom: 10px;
+  margin-top: 10px
+}
+
+.secondblackboxtext{
+   color: #DFECF4;
+   margin-left: 10px;
+}
+.meetingp {
+   font-size: xx-small;
+   margin-bottom: 0px;
+}
+
+ .joinbutton {
+   background-color:#4891FF;
+   border: none;
+   border-radius: 5px;
+   color: #FFFFFF;
+   font-size: small;
+   width: 110px;
+   height: 20px;
+   margin-left: 20px;
+ 
+ }
