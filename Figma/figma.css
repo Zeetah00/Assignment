@@ -21,7 +21,7 @@ body {
             background-color: black;
 			border-radius: 20px;
             margin: auto;
-         }
+                  }
 
 .sales {
     color: #494949;
@@ -134,18 +134,10 @@ color:#494949;
    
  }
 
- .secondblackbox {
-   width: 60%;
-   height: 130px;
-   border: 1px solid black;
-   background-color: black;
-   border-radius: 20px;
- }
-
-.jan17 {
-margin-top: 10px;
-margin-left: 35px;
-margin-bottom: 5px;
+ .jan17 {
+margin-top: 5px;
+margin-left: 20px;
+margin-bottom: 0px;
 }
 
 .teamcall {
@@ -155,10 +147,10 @@ margin-bottom: 5px;
 
 .secondblackboxtext{
    color: #DFECF4;
-   margin-left: 10px;
+   margin-left: 20px;
 }
 .meetingp {
-   font-size: xx-small;
+   font-size: 8px;
    margin-bottom: 0px;
 }
 
@@ -168,8 +160,577 @@ margin-bottom: 5px;
    border-radius: 5px;
    color: #FFFFFF;
    font-size: small;
-   width: 110px;
+   width: 120px;
    height: 20px;
-   margin-left: 20px;
- 
+   margin-left: -4px;
+   bottom: 100px;
  }
+ .parentcontainer{
+  border: 1px solid #fafafa;
+   height: 270px;
+   background-color: #fafafa;
+   border-radius: 8px;
+ }
+ .secondblackbox {
+  width: 40%;
+  height: 110px;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 20px;
+  margin-left: 20px;
+  z-index: 2;
+  position: relative;
+}
+ .whitebox {
+   position:relative;
+   background: #ffffff;
+   /* background: #FFFFFF; */
+   left: 70px;
+   bottom: 90px;
+   height: 150px;
+   padding: 20px 10px;
+   border-radius: 10px;
+   width: 240px;
+   z-index: 1;
+   }
+.divforwhiteandgreybox{
+position: relative;
+left: 10px;
+   bottom: 25px;
+   height: 140px;
+   padding: 20px 10px;
+   border-radius: 10px;
+   width: 230px;
+   z-index: 1;
+}
+ .greybox{
+   background-color: #F6FEE0;
+   position: relative;
+   padding: 55px 30px;
+   height: 0px;
+   width: 150px;
+   left: 15px;
+   border-radius: 10px;
+   z-index: 1;
+ }
+
+ .woman {
+   bottom: 0px;
+   position: absolute;
+   right: -2px;
+   height: 180px;
+ }
+ .youngman{
+   position: absolute;
+   top:120px;
+   border-radius: 15px;
+   height: 30px;
+ }
+
+ .oldman {
+   position:absolute;
+   top:120px;
+   left: 5px;
+   border-radius: 15px;
+   height: 30px;
+ }
+
+ .youngmantext {
+   font-size: 10px;
+   margin-left: 90px;
+ }
+
+ .communicationtools {
+   margin-top: 10px;
+ }
+
+ .secondbluebox {
+   width: 42%;
+   height: 240px;
+   border: 1px solid #DAF4FE;
+   background-color: #DAF4FE;
+   border-radius: 20px;
+     margin-bottom: 200px;
+     margin-left: 180px;
+     margin-top: 40px;
+     padding: 10px;
+     position: relative; 
+     z-index: 2; 
+ }
+
+ .messages {
+   margin-bottom: 0px;
+   margin-top: 0px;
+   font-size: 13px;
+ }
+
+ .fullstop {
+   margin-bottom: 0px;
+   margin-left: 150px;
+ }
+ .searchbar {
+   margin-top: 10px;
+   
+ }
+ .georgiaimg {
+   border: 1px solid #DAF4FE;
+   height: 32px;
+   border-radius: 30px;
+   right: 145px;
+   top: 70px;
+   position: absolute ;
+ }
+ .georgiatext {
+   margin-left: 30px;
+ }
+ .georgianame{
+   font-size: x-small;
+   margin-bottom: 5px;
+ }
+ .georgiamessage {
+   font-size: 8px;
+   margin-top: 1px;
+ }
+ .simonimg {
+   border: 1px solid #DAF4FE;
+   height: 32px;
+   border-radius: 30px;
+   right: 148px;
+   top: 130px;
+   position: absolute ;
+ }
+
+ .simonname {
+   font-size: x-small;
+   margin-bottom: 5px;
+   margin-left: 32px;
+ }
+ .simonmessage {
+   font-size: xx-small;
+   margin-top: 1px;
+   margin-left: 32px;
+ }
+
+ .andrewimg {
+   border: 1px solid #DAF4FE;
+   height: 32px;
+   border-radius: 30px;
+   right: 148px;
+   top: 180px;
+   position: absolute ;
+ }
+
+ .andrewtext {
+   left: 300px;
+ }
+
+ .andrewname {
+   font-size: x-small;
+   margin-bottom: 5px;
+   margin-left: 32px;
+ }
+ .andrewmessage {
+   font-size: 8px;
+   margin-top: 1px;
+   margin-left: 32px;
+ }
+
+ .graphbox {
+   width: 160px;
+   height: 160px;
+   border: 1px solid white;
+   background-color: white;
+   border-radius: 20px;
+   padding: 10px;
+   position: relative;
+   margin-top: 120px;
+   bottom: 380px;
+   left: 55px;
+   z-index: 1;
+ }
+
+ .graphandblueboxbigbox {
+   border: 1px solid #fafafa;
+   height: 340px;
+   background-color: #fafafa;
+   bottom: 120px;
+   border-radius: 8px;
+ }
+
+ .graphnumbers {
+  display: flex; 
+  font-size: xx-small;
+   flex-direction: column;
+ }
+
+ .graphboxheading {
+   top: 0px;
+   font-size: x-small;
+ }
+
+ .firstyellowgraph {
+   border: 1px solid #daf4fe;
+   background-color: #DAF4FE;
+   height: 35px;
+   width: 10px;
+   bottom: 20px;
+   left: 35px;
+   position: absolute;
+ }
+ .firstblackgraph {
+   border: 1px solid black;
+   background-color: black;
+   height: 76px;
+   width: 10px;
+   bottom: 20px;
+   left: 47px;
+   position: absolute;
+ }
+
+ .secondyellowgraph {
+   border: 1px solid #DAF4FE;
+   background-color: #DAF4FE;
+   height: 76px;
+   width: 10px;
+   bottom: 20px;
+   left: 80px;
+   position: absolute;
+ }
+
+ .secondblackgraph {
+   border: 1px solid black;
+   background-color: black;
+   height: 109px;
+   width: 10px;
+   bottom: 20px;
+   left: 93px;
+   position: absolute;
+ }
+
+ .bigboxfortodolist{
+   border: 1px solid #fafafa;
+   height: 300px;
+   background-color: #fafafa;
+   bottom: 120px;
+   border-radius: 8px; 
+   width:360px;
+   margin-left: 15px;
+   display: flex;
+   
+ }
+
+ .todolistbox{
+   border: 1px solid black;
+   height: 230px;
+   width: 160px;
+   background-color: black;
+   margin-left: 30px;
+   margin-top: 40px;
+   border-radius: 8px;
+   color: white; 
+ }
+
+ .todolistheader {
+   margin-left: 20px;
+ }
+
+ .importdata_div {
+   margin-left: 20px;
+ }
+ .importdatabox{
+   background-color: white;
+   width: 28px;
+   height: 28px;
+   border-radius: 5px;
+   align-content: center;
+   display: flex;
+   margin-top: -17px;
+   position: relative;
+   display: inline-block;
+   vertical-align: middle;
+ }
+ .importdatabox2{
+   border: 2px solid black;
+   width: 13px;
+   height: 13px;
+   border-radius: 6px;
+   margin-left: 5.5px;
+   margin-top: 5px;
+}
+
+ .importdatafirstline {
+   border-left: 1.3px solid black;
+   margin-left: 3px;
+   margin-top: 4px;
+      height: 6px;
+ }
+
+ .importdatasecondline {
+   border-left: 1.3px solid black;
+   margin-left: 6px;
+   margin-top: -9px;
+      height: 8.5px;
+ }
+
+ .importdatathirdline {
+   border-left: 1.3px solid black;
+   margin-left: 9.5px;
+   margin-top: -6px;
+      height: 6px;
+ }
+
+ .importdatatext{
+   margin-left: 5px;
+   margin-top:-19px;
+   display: inline-block;
+   vertical-align: middle;
+
+ }
+.importdata_p {
+   font-size: 7px;
+   margin-bottom:3px;
+}
+.past7days_p {
+   font-size: 5px;
+   margin-top: 0px;
+}
+.followupbox {
+   background-color: #F6FEE0;
+   width: 28px;
+   height: 28px;
+   border-radius: 5px;
+   align-content: center;
+   display: flex;
+   margin-top: 7px;
+   position: relative;
+   display: inline-block;
+   vertical-align: middle;  
+   margin-left: 20px;
+}
+.pencil {
+   height: 20px;
+   margin-left: 5px;
+   margin-top: 4px;
+}
+.followuptext{
+   margin-left: 5px;
+   margin-top:7px;
+   display: inline-block;
+   vertical-align: middle;
+ }
+
+.followup_p {
+   font-size: 7px;
+   margin-bottom:3px;
+}
+.past7days2_p {
+   font-size: 5px;
+   margin-top: 0px;
+}
+.researchpricingbox {
+   background-color: #DAF4FE;
+   width: 28px;
+   height: 28px;
+   border-radius: 5px;
+   align-content: center;
+   display: flex;
+   margin-top: 10px;
+   position: relative;
+   display: inline-block;
+   vertical-align: middle;  
+   margin-left: 20px;
+}
+
+.researchimg {
+   height: 20px;
+   margin-left: 2px;
+   margin-top: 4px;
+}
+.researchpricingtext{
+   margin-left: 5px;
+   margin-top:9px;
+   display: inline-block;
+   vertical-align: middle;
+ }
+
+.researchpricing_p {
+   font-size: 7px;
+   margin-bottom:3px;
+}
+.past7days3_p {
+   font-size: 5px;
+   margin-top: 0px;
+}
+
+.addtaskbox {
+     background-color:white;
+      width: 28px;
+      height: 28px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      margin-top: 10px;
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;  
+      margin-left: 20px;
+      color: black;
+   }
+   
+   .addtasktext {
+      margin-left: 5px;
+      margin-top:9px;
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 7px;
+   }
+.newclientsbox{
+   border: 1px solid black;
+   background-color: white ;
+   height: 100px;
+   width: 130px;
+   /* position: absolute;
+   display: inline-block; */
+   margin-left: 10px;
+   margin-top: 45px;
+   border-radius: 8px;
+} 
+
+.newclientsheading {
+   margin-left: 10px;
+margin-bottom: 5px;
+   }
+.newclientsnumber {
+   margin-left: 10px;
+   font-size: 25px;
+   margin-top: 5px;
+}
+.conversionratebox{
+   border: 1px solid black;
+   background-color: #F6FEE0 ;
+   height: 100px;
+   width: 130px;
+   display: inline-block;
+   position: absolute;
+   left: 225px;
+   margin-top: 170px; 
+   border-radius: 8px;  
+}
+
+.conversionrateheading {
+   margin-left: 10px;
+margin-bottom: 5px;
+   }
+.conversionrate_number {
+   margin-left: 10px;
+   font-size: 25px;
+   margin-top: 5px;
+}
+
+.blackbody {
+   background-color: black;
+}
+.blackbodytexts{
+   color: white;
+   margin-left: 10px;   
+}
+
+.blackbodyheading {
+   align-items: center;
+}
+
+.getstartedbutton {
+   background-color: #4891FF;
+   color: #ffffff;
+   width: 90%;
+   padding:20px;
+   border: none;
+   border-radius: 10px;
+   margin-left: 15px;
+}
+.videobox {
+   height: 250px;
+background-color: purple;
+margin-left: 10px;
+width:93%;
+border-radius: 10px;
+margin-bottom:30px;
+}
+
+.firstwhitebox {
+   background-color: white;
+   border: 1px solid black;
+   border-radius: 10px;
+   width: 93%;
+   margin-left:10px;
+   margin-bottom: 20px;
+}
+
+.secondwhitebox {
+   background-color: white;
+   border: 1px solid black;
+   border-radius: 10px;
+   width: 93%;
+   margin-left:10px;
+   margin-bottom: 20px;
+}
+
+.thirdwhitebox {
+   background-color: white;
+   border: 1px solid black;
+   border-radius: 10px;
+   width: 93%;
+   margin-left:10px;
+   margin-bottom: 20px;
+}
+
+.fourthwhitebox {
+   background-color: white;
+   border: 1px solid black;
+   border-radius: 10px;
+   width: 93%;
+   margin-left:10px;
+   margin-bottom: 20px;
+}
+
+.simplebox {
+ background-color: #FAFAFA;
+ border-radius: 10px;
+ border: 1px solid #FAFAFA;
+ width: 91%;
+ margin-left:15px;
+ height: 550px;
+}
+
+.getstartedbutton2 {
+  background-color: #4891FF;
+  color: #ffffff;
+  width: 90%;
+  padding:20px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+
+.getstartedbutton3 {
+  background-color: #4891FF;
+  color: #ffffff;
+  width: 90%;
+  padding:20px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+
+.premiumbox{
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  width: 91%;
+  border-radius: 10px;
+  margin-left:15px;
+ margin-top: 50px;
+ height: 630px;
+}
