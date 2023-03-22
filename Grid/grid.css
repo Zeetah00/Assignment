@@ -1,0 +1,332 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.hero_area{
+    border: 1px solid black;
+    width: 100%;
+    margin-left: 13px;
+}
+.header{
+    border:1px solid black;
+    background-color: black;
+    color: white;
+    height: 200px;
+padding: 10px;
+
+}
+
+.follow {
+    border: 1px solid #4891FF;
+    width: 160px;
+    background-color: #4891FF;
+    border-radius: 25px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.nav_bar {
+    border:1px solid black;
+    background-color: #666;
+    color: black;
+    height: 200px;
+width: 100%;
+}
+
+.bar {
+    padding:10px;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 95%;
+    height:19px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.all_boxes{
+    margin: 0 auto;
+    width: 95%;
+    }
+
+.css_grid_layout{
+    border: 1px solid black;
+    background-color: black;
+    margin-top: 30px;
+    color: white;
+font-size: larger;
+height: 200px;
+padding: 15px;
+width: 95%;
+}
+
+.the_video_tutorial{
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 30px;
+    color: black;
+font-size: larger;
+height: 180px;
+padding: 15px;
+width: 95%;
+}
+
+.get_started_guide{
+    border: 1px solid black;
+    background-color: rgb(153, 55, 153);
+    margin-top: 30px;
+    color: white;
+    font-size: larger;
+    height: 150px;
+    padding: 15px;
+    width: 95%;
+}
+
+.the_examples{
+    border: 1px solid black;
+    background-color: white(153, 55, 153);
+    margin-top: 30px;
+    color: black;
+    font-size: larger;
+    height: 180px;
+    padding: 15px;
+    width: 95%;
+}
+
+.patterns{
+    border: 1px solid black;
+    background-color: white(153, 55, 153);
+    margin-top: 30px;
+    color: black;
+    font-size: larger;
+    height: 150px;
+    padding: 15px;
+    width: 95%;
+}
+
+.resources{
+    border: 1px solid black;
+    background-color: white(153, 55, 153);
+    margin-top: 30px;
+    color: black;
+    font-size: larger;
+    height: 180px;
+    padding: 15px;
+    width: 95%;
+}
+
+.css_layout_news{
+    border: 1px solid black;
+    background-color: white(153, 55, 153);
+    margin-top: 30px;
+    color: black;
+    font-size: larger;
+    height: 180px;
+    padding: 15px;
+    width: 95%;
+}
+
+.questions{
+    border: 1px solid black;
+    background-color: white(153, 55, 153);
+    margin-top: 30px;
+    color: black;
+    font-size: larger;
+    height: 150px;
+    padding: 15px;
+    width: 95%;
+}
+
+.about_css_grid{
+    border: 1px solid black;
+    background-color: white(153, 55, 153);
+    margin-top: 30px;
+    color: black;
+    font-size: larger;
+    height: 140px;
+    padding: 15px;
+    width: 95%;
+}
+
+.news{
+    border: 1px solid black;
+    background-color: white(153, 55, 153);
+    margin-top: 30px;
+    color: black;
+    font-size: larger;
+    height: 140px;
+    padding: 15px;
+    width: 95%;
+}
+
+.gridbugs{
+    border: 1px solid black;
+    background-color: white(153, 55, 153);
+    margin-top: 30px;
+    color: black;
+    font-size: larger;
+    height: 150px;
+    padding: 15px;
+    width: 95%;
+}
+
+.footer_black{
+    border: 1px solid black;
+    background-color: black;
+       height: auto;
+       width:100%;
+       left: -15px;
+      position: absolute;
+       padding:20px;
+       margin-top: 30px;
+   
+}
+
+.footer_lighter{
+    border: 1px solid rgb(86, 81, 81);
+    background-color: rgb(67, 62, 62);
+    margin-top: 10px;
+    color: white;
+    font-size: large;
+    height: auto;
+    width: 85%;
+    margin-left: 15px;
+   text-align:justify;
+   padding: 0px 20px;
+   
+}
+
+@media only screen and (min-width: 640px) {
+    .nav_bar{
+        display: flex;
+     height:40px;
+        font-size: larger;
+      
+    }
+    .bar{
+        height: 20px;
+        margin-right: -40px;
+        border: none;
+    }
+    .follow{
+        margin-left:400px;
+        font-size: larger;
+        width:200px;       
+    }
+    .firstparent{
+        display: flex;
+    }
+    .css_grid_layout{
+       width: 65%;
+       margin-left: 40px;
+    }   
+
+    .the_video_tutorial{
+        width: 26%;
+        margin-left: 30px;
+        height: 200px;
+    }
+    .get_started_guide {
+        margin-left: 40px;
+        width:95%;
+    }
+
+    .secondparent{
+        display: flex;
+    }
+    .the_examples{
+    margin-left: 40px;
+    width: 40%;
+    }
+    .patterns{
+    width: 52%;
+    margin-left: 29px;
+    height: 180px;
+}
+
+.thirdparent{
+    display: flex;
+}
+.resources{
+   width: 65%;
+   margin-left: 40px;
+}   
+
+.css_layout_news{
+    width: 27%;
+    margin-left: 30px;
+    height: 180px;
+}
+
+.fourthparent{
+    display: flex;
+}
+.questions{
+   width: 44%;
+   margin-left: 40px;
+}   
+
+.about_css_grid{
+    width: 20%;
+    margin-left: 23px;
+    height: 150px;
+}
+.news{
+    width: 25%;
+    margin-left: 25px;
+    height: 150px;
+}
+.gridbugs {
+    margin-left: 40px;
+    width:95%;
+}
+.footer_lighter{
+    margin-left: 50px;
+    width:88%;
+}
+.all_boxes{
+    margin: 0 auto;
+    width: 95%;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1010px) {
+    .css_grid_layout {
+        height: 300px;
+        width: 57%;
+    }
+    .the_video_tutorial{
+        height:300px;
+        width: 34%;
+    }
+    .the_examples{
+        width: 46%;
+        height: 200px;
+    }
+    .patterns{
+        width: 45%;
+height: 200px;
+    }
+.resources{
+    width:51%;
+    height:200px;
+}
+.css_layout_news{
+    width:41%;
+    height:200px;
+}
+.questions{
+    width: 36%;
+    height: 200px;
+}
+.about_css_grid{
+    width:33%;
+    height: 200px;
+}
+.news{
+    width:22%;
+    height: 200px;
+}
+}
