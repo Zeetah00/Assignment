@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TICKET EVENT</title>
+    <link rel="stylesheet" href="ticket.css">
+</head>
+<body>
+    <p> Register to get free tickets to the FAF Fund III movie event</p>
+    
+    <form action="/submit" method="post" class="form">
+        <hi style="margin-bottom: 10px; font-size: larger; font-weight: bold; text-align: center;">BUY TICKET</hi> 
+    
+        <label for="userName">NAME</label>   
+        <input id="userName" type="text" placeholder="Enter your name">
+    
+        <label for="email">EMAIL</label>   
+        <input id="email" type="email" placeholder="Enter your email">
+    
+        <label for="dateOfBirth">DATE OF BIRTH</label>   
+        <input id="dateOfBirth" type="date">
+    
+        <label for="movieName">MOVIE</label>   
+      <select style="padding: 10px; margin-bottom: 10px;" id="movieName" name="movieName">
+    <option value="Select">Select movie</option>
+    <option value="Movie1">PEOPLE TROUBLE</option>
+    <option value="Movie2">AVATAR</option>
+    <option value="Movie3">THRONES GAME</option>
+    <option value="Movie4">FAF MOVIE</option>
+    <option value="Movie5">UNSEEN</option>
+  </select>
+      
+        <button style="padding: 10px;" id="buyButton">BUY</button>
+    </form>
+
+    <script type="text/javascript" src="ticket.js"></script>
+</body>
+</html>
