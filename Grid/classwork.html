@@ -5,30 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="classwork.css">
 </head>
 <body>
-    <form>
-        <input id="inputA" type="number" placeholder="A">
-        <input id="inputB" type="number" placeholder="B">
-        <button onclick="numberSum()" id="submitButton"> Submit</button>
-    </form>
+ <h1 style="color: brown; text-align: center; border: 1px solid brown; border-radius: 10px; border-width: 70px;"> Welcome to Collexy Updates Center</h1>
+    <p style="text-align:center">
+    <strong id="country">Country:</strong> NG
+    <strong id="state">State:</strong> Kaduna
+    <strong id="humidity">Humidity:</strong> 9%
+    <strong id="temperature">Temperature :</strong> 311.12%
+    <strong id="windSpeed">Wind Speed:</strong> 4.69m/s
+    
+ </p>
 
-    <p class="Numbers"> </p> 
-    <script>
-    
-    function numberSum() {
-    const A = document.getElementById("inputA").value ;
-    const B = document.getElementById("inputB").value;
-    const button = document.getElementById("submitButton");
-    button.addEventListener('click', numberSum) 
-    const sum = A + B;
-    
-console.log("the sum of " + A + " and " + B + " is " + sum);
-    }
-   
-</script>
+ <script>
+
+ </script>
 </body>
 </html>
-
-
-
