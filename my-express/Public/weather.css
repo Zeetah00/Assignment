@@ -1,0 +1,381 @@
+body {
+    background-image: url("background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero_area{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+}
+.name{
+    font-size: larger;
+    color: rgb(205, 155, 17);
+    font-weight: bold; 
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    
+}
+.search_area {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    text-align: center;
+    height: 15px;
+    padding: 10px;
+    
+}
+button{
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 20px;  
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+}
+.search_icon {
+    width: 16px;
+    height: 16px;    
+   }
+.invalidCity{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    display: none;
+}
+.first_card {
+    width: 15%;
+    border-radius: 5px;
+    padding: 15px;
+    background:rgb(150, 185, 199);
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+.weather_img{
+    width: 20%;
+    height: 20%;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.city {
+    font-size: 20px;
+    margin-top: -10px;
+}
+.temperature {
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.situation {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.card2{
+    width: 91%;
+    background:rgb(150, 185, 199);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5%;
+    height: auto;
+    margin-top: 50px;
+    
+}
+
+.weather_in_area{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.date_time{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.temp_rate{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+.card2_all{
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+margin-top: 20px;
+margin-left: 15px;
+}
+hr {
+    border: 1px solid black;
+}
+.criteria_img{
+    width: 6%;
+    height: 20%;
+     
+}
+
+.criterias{
+    display: flex;
+    align-items: center;
+}
+
+.criteria_country, .criteria_humidity, .criteria_pressure, .criteria_visibility, .criteria_wind, .criteria_dewpoint, .criteria_uv, .criteria_moonphase {
+    margin-left: 5px;
+    font-weight: 900;
+    margin-left: 3%;
+}
+
+.criteria_rate_country, .criteria_rate_humidity, .criteria_rate_pressure, .criteria_rate_visibility, .criteria_rate_wind, .criteria_rate_dewpoint, .criteria_rate_uv, .criteria_rate_moonphase {
+    margin-left: 50px;
+}
+
+
+.second_card{
+    width: 90%;
+    background:rgb(150, 185, 199);
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 5%;
+    height: 180px;
+    margin-top: 50px;
+}
+.secondcard_heading{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.daily_card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 0 2px;
+}
+
+
+.daily_img {
+    width: 35%;
+    height: 40%;   
+}
+
+.daily_contents{
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-bottom: -5px;
+    align-items: center;
+}
+
+.vertical_line {
+    border: 1px solid black;
+  margin-right: 15px;
+  height: 100px;
+}
+
+
+.third_fourth_card{
+    display: flex;
+}
+
+.third_card {
+    width: 43%;
+    background:rgb(150, 185, 199);
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 5%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.img_today {
+    width: 20px;
+    height: 10%; 
+    justify-content: space-between;
+    margin-left: 140px;
+}
+
+.temp_today{
+    margin-left: 180px;
+}
+
+.sevenday_p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.today_contents {
+    font-size: 15px;
+    font-weight: 400;
+    align-items: center;
+
+} 
+
+.horizontal-line1{
+    border: 1px solid black;
+    height: 360%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.weather_today{
+    display: flex;
+    align-items: center;
+}
+
+
+.fourth_card_heading{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fourth_card{
+    width: 43%;
+    background:rgb(150, 185, 199);
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 1%;
+    height: auto;
+    margin-top: 50px;
+}
+
+
+/* .humidity_windspeed{
+    display: flex;
+    padding: 0 10px;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.humidity, .wind_speed {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.humidity_img, .wind_speed_img{
+    width: 30%;
+    height: 20%;
+}
+
+.wind_speed_rate, .humidity_rate {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 2px;   
+} */
+
+@media screen and (min-width: 350px) and (max-width: 900px) {
+    .search {
+        width: 150px;
+       height: 12px; 
+    }
+    
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+.card2{
+    width: 400px;
+    margin-left: 2%;
+}
+.second_card{
+    width: 400px;
+    margin-left: 2%; 
+}
+}
+
+@media screen and (min-width: 300px) and (max-width: 850px) {
+    .first_card {
+        width: 130px;
+        height: auto;
+       margin-left: 2%;
+    }
+    }
+
+    @media screen and (min-width: 300px) and (max-width: 1000px) {
+        .third_card {
+            width: 60%;
+            height: auto;
+            font-size: medium;
+            }
+            .img_today {
+             margin-left: 10px;
+            }
+            .today_contents {
+                font-size: 10px;
+                font-weight:200;          
+            } 
+            .temp_today{
+                margin-left: 15px;
+            }
+            .sevenday_p{
+                font-weight: 600;
+                font-size: 13px;
+            }
+            .fourth_card_heading{
+                font-weight: 600;
+                font-size: 13px;
+            }
+            .fourth_card{
+                width: 60%;
+            height: auto;
+            font-size: medium;
+            }
+        .third_fourth_card{
+            width: 100%;
+        }
+        }
+
+    @media screen and (min-width: 700px) and (max-width: 1094px) {
+       
+            .img_today {
+             margin-left: 60px;
+            }
+            .today_contents {
+                font-size: 15px;
+                font-weight:300;          
+            } 
+            .temp_today{
+                margin-left: 100px;
+            }
+            .sevenday_p{
+                font-weight: 600;
+                font-size: 16px;
+            }
+            .fourth_card_heading{
+                font-weight: 600;
+                font-size: 16px;
+            }
+            
+            }
+
+@media screen and (min-width: 800px) and (max-width: 1094px) {
+    .img_today {
+        margin-left: 80px;
+       }
+       .temp_today{
+        margin-left: 120px;
+    }
+}
